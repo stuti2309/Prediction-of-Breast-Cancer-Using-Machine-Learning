@@ -6,7 +6,7 @@ The dataset was processed to check for any missing values, none were found. Data
 
 The dataset was split in a 90:10 ratio and trained and compared on the basis of Accuracy, Sensitivity, Specificity, AUC. Confusion Matrix and ROC Curve were also visualized. The ML Algorithms used were:
 - Logistic Regression
-- Support Vector Machine
+- Support Vector Machine (SVM)
 - Decision Trees
 - Random Forest Classifier
 - AdaBoost
@@ -31,20 +31,24 @@ These instructions will give you a copy of the project up and running on your lo
 
 ## Results 
 
-Accuracy & AUC Comparsion
+Accuracy Comparsion
 
-![Accuracy & AUC Comparsion](Screenshots/Accuracy&AUC_Comparison.PNG)
+![Accuracy Comparison](Screenshots/Accuracy.png)
+
+AUC Comparison
+
+![AUC Comparison](Screenshots/AUC.png)
 
 
-Sensitivity & Specificity Comparsion
+Recall & Specificity Comparsion
 
-![Sensitivity Comparsion](Screenshots/Sensitivity&Specificity_Comparison.PNG)
+![Recall & Specificity Comparsion](Screenshots/Specificity.png)
 
 
 Confusion Matrix Comparison
 
-![Confusion Matrix Comparison](Screenshots/ConfusionMatrix_Comparison.png)
+![Confusion Matrix Comparison](Screenshots/ConfusionMatrix.png)
 
 ROC Comparsion
 
-![ROC Comparsion](Screenshots/ROC_Comparsion.png)
+![ROC Comparsion](Screenshots/ROCCurves.png)
